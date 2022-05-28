@@ -57,8 +57,7 @@ button:hover {
   color: #3a3A3a;
 }
 /* Heading */
-h3,
-label[for='new-task'] {
+h3, label[for='new-task'] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -97,7 +96,6 @@ li {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -115,7 +113,7 @@ li > label {
   font-size: 18px;
   width: 226px;
 }
-li >    input[type="text"] {
+li > input[type="text"] {
   width: 226px
 }
 button.delete img {
