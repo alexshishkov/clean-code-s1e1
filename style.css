@@ -5,18 +5,18 @@
   font-family: Lato, sans-serif;
 }
 
-.matrix__pic {
+.matrix-pic {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.matrix__pic_img {
+.matrix-pic__img {
   width: 100%;
 }
 
-.matrix__pic_inf {
+.matrix-pic__inf {
   font-family: fantasy, cursive;
 }
 
@@ -32,7 +32,7 @@
   flex-grow: 1;
 }
 
-.new__item_wrapper {
+.item-addition__wrapper {
   display: flex;
 }
 
