@@ -5,18 +5,18 @@
   font-family: Lato, sans-serif;
 }
 
-.eisenhower_matrix_pic {
+.matrix__pic {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.pic {
+.matrix__pic_img {
   width: 100%;
 }
 
-.more_inf {
+.matrix__pic_inf {
   font-family: fantasy, cursive;
 }
 
@@ -32,7 +32,7 @@
   flex-grow: 1;
 }
 
-.new_item_wrapper {
+.new__item_wrapper {
   display: flex;
 }
 
@@ -144,7 +144,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed__tasks label {
   text-decoration: line-through;
   color: #888;
 }
@@ -164,7 +164,7 @@ ul li.editMode label {
 }
 
 @media (max-width:768px) {
-  .eisenhower_matrix_pic {
+  .eisenhower__matrix_pic {
     text-align: center;
   }
 }
